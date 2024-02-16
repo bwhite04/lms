@@ -27,7 +27,7 @@ services:
         source: ./init.sh
         target: /home/frappe/init.sh
     ports:
-      - 8000:80
+      - 80:8000
       - 9000:9000
 
 volumes:
